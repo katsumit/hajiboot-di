@@ -9,5 +9,10 @@ public class AppConfig {
 	Calculator calculator() {
 		return new AddCalculator();
 	}
+	
+	@Bean
+	ArgumentResolver argumentresolver() {
+		return new ScannerArgumentResolver();
+	}
 
 }
