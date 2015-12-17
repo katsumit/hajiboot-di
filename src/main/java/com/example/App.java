@@ -7,6 +7,10 @@ import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
 
+import com.example.app.Argument;
+import com.example.app.ArgumentResolver;
+import com.example.app.Calculator;
+
 /**
  * Calculatorエントリ・ポイント
  *
